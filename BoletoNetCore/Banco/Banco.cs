@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using BoletoNetCore.BTGPactual;
 using BoletoNetCore.Exceptions;
 using BoletoNetCore.Extensions;
-using Microsoft.VisualBasic;
 
 namespace BoletoNetCore
 {
@@ -26,7 +25,8 @@ namespace BoletoNetCore
             [097] = BancoCrediSIS.Instance,
             [077] = BancoInter.Instance,
             [208] = BancoBTGPactual.Instance,
-            [707] = BancoDaycoval.Instance
+            [707] = BancoDaycoval.Instance,
+            [745] = BancoCitibank.Instance,
         };
 
         public static IBanco Instancia(int codigoBanco)

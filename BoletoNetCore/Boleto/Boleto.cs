@@ -53,6 +53,8 @@ namespace BoletoNetCore
         public string NossoNumeroDV { get; set; } = string.Empty;
         public string NossoNumeroFormatado { get; set; } = string.Empty;
 
+        public string CodigoConvenioBanco { get; set; } = string.Empty;
+
         public TipoCarteira TipoCarteira { get; set; } = TipoCarteira.CarteiraCobrancaSimples;
         public string Carteira { get; set; } = string.Empty;
         public string VariacaoCarteira { get; set; } = string.Empty;
